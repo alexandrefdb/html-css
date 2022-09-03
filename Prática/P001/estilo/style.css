@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(148, 189, 224);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div#calculadora-body{
+    background-color: rgba(65, 63, 63, 0.767);
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    padding: 50px;
+}
