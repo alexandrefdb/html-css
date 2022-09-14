@@ -8,16 +8,18 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
-            background-image: url('imagens/wallpaper002.jpg');
-            background-position: center center;
-            background-repeat: no-repeat;
+            /*
+            Shorthand - background
+            
+            color > image > position > repeat > [size] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
         main{
             background-color: white;
             padding: 10px;
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
@@ -26,7 +28,7 @@
 </head>
 <body>
     <main>
-        <h1>Teste de imagem de fundo</h1>
+        <h1>Fundo fixo de tela</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eum magni sit sapiente error non odit! Enim rerum ipsam earum nulla quas, voluptatibus ipsum harum obcaecati corporis quae assumenda consequuntur?
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, qui consequatur adipisci asperiores fugit maxime molestiae dolore accusamus earum numquam neque velit consequuntur quia nam dolorum impedit in! Totam, nulla!
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt voluptatem labore fugit obcaecati blanditiis, inventore debitis quas adipisci incidunt aperiam laboriosam, distinctio autem, earum eius eaque enim expedita animi quaerat.
