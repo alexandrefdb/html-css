@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif   ;
+
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .amarelo{
+            background: yellow;
+        }
+        .vermelho{
+            background: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho" span="2">
+            <col class="amarelo">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>25 Anos</td>
+            <td>Feminino</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Cláudio</td>
+            <td>32 Anos</td>
+            <td>Masculino</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>46 Anos</td>
+            <td>Masculino</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Lívia</td>
+            <td>38 Anos</td>
+            <td>Feminina</td>
+            <td>Caixa</td>
+        </tr>
+        <tr>
+            <td>Alexandre</td>
+            <td>33 Anos</td>
+            <td>Masculino</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>23</td>
+            <td>Feminina</td>
+            <td>Doutora</td>
+        </tr>
+    </table>
+</body>
+</html>
