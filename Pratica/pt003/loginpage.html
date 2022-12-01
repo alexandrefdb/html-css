@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="index.html">
         <h1>Informe as informações abaixo </h1>
-        <div>
+        <div id="container-name-user">
             <input type="text" id="input-nome" placeholder="Nome do Usuário" minlength="5" maxlength="30" required>
         </div>
-        <div>
-            <input type="text" name="input-senha" id="input-senha" placeholder="" required minlength="5" maxlength="20">
-        
+        <div id="container-password">
+            <input type="text" name="input-senha" id="input-senha" placeholder="Senha" required minlength="5" maxlength="20">
         </div>
         <button type="submit">Entrar</button>
         <button type="reset">Excluir</button>
