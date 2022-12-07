@@ -8,7 +8,34 @@ body{
     background: gray;
     font-family: Arial, Helvetica, sans-serif;
 }
-div#container-name-user{
-    position: absolute;
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+div#div-info{
+    position: relative;
+    background: rgb(66, 65, 65);
+    width: 50vw;
+    height: 65vh;
+    left: 25%;
+    top: 17vh;
+    border-radius: 25px;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.384);
+}
+div#div-container-inputs{
+    position: relative;
+    left: 30%;
+    padding-top: 50px;
     
+}
+input{
+    padding: 5px;
+    height: 25px;
+    width: 250px;
+    border-radius: 7px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
 }
