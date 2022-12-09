@@ -11,18 +11,28 @@
     <form action="index.html">
         <div id="div-info">
             <h1>Informe as informações abaixo </h1>
+            <hr>
             <div id="div-container-inputs">
-                <div id="container-name-user">
-                    <input type="text" id="input-nome" placeholder="Nome do Usuário" minlength="5" maxlength="30" required>
+                <div id="container-dados">
+                    <div id="container-name-user">
+                        <label for="input-nome">Nome:</label><br>
+                        <input type="text" id="input-nome" placeholder="Nome do Usuário" minlength="5" maxlength="30" required>
+                    </div>
+                    <div id="container-password">
+                        <label for="input-senha">Senha:</label><br>
+                        <input type="password" name="input-senha" id="input-senha" placeholder="Senha" required minlength="5" maxlength="20">
+                    
                 </div>
-                <div id="container-password">
-                    <input type="text" name="input-senha" id="input-senha" placeholder="Senha" required minlength="5" maxlength="20">
-                
             </div>
-            <button type="submit">Entrar</button>
-            <button type="reset">Excluir</button>
+
+            <div id="container-button">
+                <button type="submit" class="botao">Entrar</button>
+                <button type="reset" class="botao">Excluir</button>
+            </div>
         </div>
+
     </div>
+           
     </form>
 </body>
 </html>

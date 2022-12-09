@@ -15,7 +15,7 @@ h1{
 }
 div#div-info{
     position: relative;
-    background: rgb(66, 65, 65);
+    background: linear-gradient(to top, rgb(48, 1, 92), rgb(36, 28, 44));
     width: 50vw;
     height: 65vh;
     left: 25%;
@@ -29,13 +29,52 @@ div#div-container-inputs{
     padding-top: 50px;
     
 }
+div#container-dados{
+    position: relative;
+    right: 10%;
+}
+div#container-button{
+    position: relative;
+    top: 50px;
+    left: 1%;
+    min-width: 290px;
+
+}
+
 input{
     padding: 5px;
     height: 25px;
     width: 250px;
     border-radius: 7px;
+    border: none;
+    background-color: rgba(50, 42, 58, 0.822);
+
+}
+div#container-name-user{
+    position: relative;
+    bottom: 15px;
 }
 button{
     padding: 10px;
     border-radius: 5px;
+    border: none;
+    
+}
+button.botao{
+    background-color: rgba(55, 39, 70, 0.637);
+    margin: 10px;
+}
+button.botao:hover{
+    transform: translate(5px, 5px);
+    transition: transform 0.9s, border 1s;
+    border: 2px solid rgb(66, 58, 58);
+}
+label{
+    color: gray;
+}
+img{
+    position: relative;
+    top: 90px;
+    left: 90px;
+
 }
