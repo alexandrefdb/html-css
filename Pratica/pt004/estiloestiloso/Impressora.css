@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+menu, footer{
+    display: none;
+}
+article::before{
+    content: 'Site criado por Alexandre.';
+}
