@@ -7,12 +7,15 @@
     <title>Media Query</title>
     <link rel="stylesheet" href="estilo/style.css" media="all">
     <link rel="stylesheet" href="estilo/media-queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <menu>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
+
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
                 <li><a href="#">Opção 3</a></li>
@@ -30,6 +33,15 @@
             <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa sunt, est nam, consectetur cupiditate odio non eius quis reprehenderit nulla a, unde suscipit. Libero aspernatur impedit doloremque maxime mollitia autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, cupiditate ipsum. Tempora voluptatibus voluptatum at consequatur nemo. Quis, expedita voluptatum! Tenetur fugiat quos at hic. Assumenda quisquam accusantium voluptate exercitationem.</p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none';
+            } else{
+                itens.style.display = 'block';
+            }
+        }
+    </script>
 </body>
 </html
 
