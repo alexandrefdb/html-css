@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="estilos/media-queries.css">
+      <link rel="stylesheet" href="estilos/style.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+        <div id="imagem">
+
+        </div>
+
+        <div id="form">
+            <h1>Login</h1>
+            <p>Muito obrigado por visitar minha tela de login :D</p>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <div class="campo">
+                <i class="material-icons">mail</i>
+                <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="Insira seu e-mail aqui" >
+                <label for="iemail"></label>
+            </div>
+            <div>
+                <i class="material-icons">key</i>
+               <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" placeholder="Insira sua senha aqui">
+               <label for="iemail"></label>
+            </div>
+            <div>
+                <input type="submit" value="Entrar">
+                <a href="Criarconta.html">Criar Conta
+                    <i class="material-icons"> person outline</i>
+                </a>
+            </div>
+        </form>
+        </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>Site feito por <a href="https://github.com/alexandrefdb/" target="_blank">Alexandre</a></p>
+    </footer>
+</body>
+</html>
