@@ -5,10 +5,14 @@ function transformação(Grau){
     if(!celsiusExist && !fahrenheiExists){
        throw new Error('Grau não identificado')
     }
+     let updatedDegree = Number(Grau.toUpperCase().replace("F", ""));
+     let formula = fahrenhei => (fahrenhei - 32) * 5/9;
+     let degreeSign = "C"
+
+     return formula(updatedDegree) + degreeSign
 }
 try{
-    transformação('50F')
-    trans
+    console.log(transformação('50Z'))
 }catch(error){
-
+    console.log(error)
 }
