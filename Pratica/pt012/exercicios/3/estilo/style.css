@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+.foto{
+    width: 30%;
+    height: 200px;
+    border: solid 1px black;
+}
+.column{
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+
+}
