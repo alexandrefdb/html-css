@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 50%;
+    width: 100%;
+}
+
